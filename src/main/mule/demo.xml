@@ -22,6 +22,7 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<set-payload value='" added set payload"' doc:name="Set Payload" doc:id="ee336dc8-a74a-4b22-9594-2f515d55654b" />
 		<logger level="INFO" doc:name="end Logger" doc:id="18b43e8a-e3d7-4e8e-b38d-116f37c2a7fc" message="flow ended"/>
 	</flow>
 </mule>
